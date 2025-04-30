@@ -13,9 +13,9 @@ public class IndexController {
         return "Hello, World!";
     }
 
-  @GetMapping("/fire")
+    @GetMapping("/fire")
     public String fire(){
-       return "views/fire";
+        return "views/fire";
     }
 
 }
